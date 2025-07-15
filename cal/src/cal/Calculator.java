@@ -15,7 +15,7 @@ public class Calculator {
         // 🔷 Text Field (Display)
         display = new JTextField();
         display.setEditable(false);
-        display.setFont(new Font("Arial", Font.BOLD, 24));
+        display.setFont(new Font("Arial", Font.BOLD, 40));
         display.setBackground(new Color(230, 230, 250)); // light lavender
         display.setForeground(Color.BLACK);
 
@@ -58,7 +58,7 @@ public class Calculator {
         frame.add(panel, BorderLayout.CENTER);
 
         frame.getContentPane().setBackground(new Color(220, 220, 220)); // background color
-        frame.setSize(400, 500);
+        frame.setSize(300, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null); // center window
         frame.setVisible(true);
